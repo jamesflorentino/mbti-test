@@ -24,6 +24,8 @@ angular.module('app', [])
         return question.answer;
       });
       window.localStorage.answers = JSON.stringify(answers);
+      calculateResult();
+      window.scrollTo(0,0);
       // console.log(answers);
     };
 

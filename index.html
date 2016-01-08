@@ -12,12 +12,16 @@
   <div class="container">
     <div class="row text-center" ng-if="result">
       <div class="alert alert-info">
+        <small>Your personality type is:</small>
         <h1>{{result.type}}</h1>
         <ul class="list-inline">
           <li ng-repeat="trait in result.traits">
             {{trait.typeName}} ({{trait.percentage}}%)
           </li>
         </ul>
+        <div class="text-center">
+          <a href="https://www.personalitypage.com/{{result.type}}.html">Description</a>
+        </div>
       </div>
     </div>
     <div class="row" style="margin-bottom: 50px;">
@@ -39,10 +43,10 @@
             </div>
           </div>
         </div>
-
-        <a class="btn btn-success" ng-click="submit($event)">Submit</a>
-
       </div>
+    </div>
+    <div class="row text-center" style="margin-bottom: 350px;">
+      <a class="btn btn-success btn-lg" ng-click="submit($event)">Submit</a>
     </div>
   </div>
 </body>
