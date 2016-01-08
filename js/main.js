@@ -136,7 +136,7 @@ angular.module('app', [])
 
     }
 
-    $http.get('/list.json')
+    $http.get('list.json')
       .then(function(response) {
         var data = response.data;
         var questions = data.questions.map(function(question, i) {
