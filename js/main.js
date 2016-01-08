@@ -24,16 +24,7 @@ angular.module('app', [])
     };
 
     $scope.submit = function($event) {
-      var answers = $scope.questions.filter(function(question) {
-        return !!question.selected;
-      })
-      .map(function(question) {
-        return question.answer;
-      });
-      window.localStorage.answers = JSON.stringify(answers);
       calculateResult();
-      window.scrollTo(0,0);
-      // console.log(answers);
     };
 
     function compareScore(a, b) {
@@ -142,6 +133,15 @@ angular.module('app', [])
         scores: scores,
         traits: resultType
       };
+
+      var answers = $scope.questions.filter(function(question) {
+        return !!question.selected;
+      })
+      .map(function(question) {
+        return question.answer;
+      });
+      window.localStorage.answers = JSON.stringify(answers);
+      window.scrollTo(0,0);
 
     }
 
