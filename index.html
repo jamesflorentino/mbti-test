@@ -46,7 +46,8 @@
       </div>
     </div>
     <div class="row text-center" style="margin-bottom: 350px;">
-      <a class="btn btn-success btn-lg" ng-click="submit($event)">Submit</a>
+      <a class="btn btn-success btn-disabled btn-lg" disabled="disabled" ng-click="submit($event)" ng-if="!isValid">Complete the test</a>
+      <a class="btn btn-success btn-lg" ng-click="submit($event)" ng-if="isValid">Submit</a>
     </div>
   </div>
 </body>

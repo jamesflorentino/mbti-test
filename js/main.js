@@ -6,7 +6,6 @@ angular.module('app', [])
       console.log(e);
       $scope.answers = [];
     } finally {}
-    // $scope.answers = [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1];
     $scope.title = "Find your MBTI";
     $scope.answer = function(selection, question, $event) {
       $event.preventDefault();
@@ -17,10 +16,18 @@ angular.module('app', [])
       question.selected = selection;
       question.answer = selection.i;
       question.selected.selected = true;
+
+      var answers = $scope.questions.filter(function(question) {
+        return !!question.selected;
+      });
+      $scope.isValid = answers.length === $scope.questions.length;
     };
 
     $scope.submit = function($event) {
-      var answers = $scope.questions.map(function(question) {
+      var answers = $scope.questions.filter(function(question) {
+        return !!question.selected;
+      })
+      .map(function(question) {
         return question.answer;
       });
       window.localStorage.answers = JSON.stringify(answers);
