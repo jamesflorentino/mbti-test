@@ -17,7 +17,9 @@ angular.module('app', [])
       question.answer = selection.i;
       question.selected.selected = true;
 
-      var answers = $scope.questions.filter(function(question) {
+      var questions = $scope.questions || [];
+
+      var answers = questions.filter(function(question) {
         return !!question.selected;
       });
       $scope.isValid = answers.length === $scope.questions.length;
