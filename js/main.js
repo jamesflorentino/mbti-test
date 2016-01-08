@@ -136,7 +136,8 @@ angular.module('app', [])
         traits: resultType
       };
 
-      var answers = $scope.questions.filter(function(question) {
+      var questions = $scope.questions || [];
+      var answers = questions.filter(function(question) {
         return !!question.selected;
       })
       .map(function(question) {
