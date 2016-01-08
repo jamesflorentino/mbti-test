@@ -9,3 +9,11 @@
   padding-bottom: 0;
   border: 0;
 }
+
+.btn-left {
+  text-align: left;
+}
+
+.btn-block ~ .btn-block {
+  margin-top: 10px;
+}

@@ -27,21 +27,19 @@
     <div class="row" style="margin-bottom: 50px;">
       <div class="col-md-12">
         <h1>Discover your personality type</h1>
-        <p class="lead">Below is an MBTI (Myers Briggs Test Indicator) test that gives a benchmark of what your personality is. It describes how your brain primarily works.</p>
+        <p class="lead">Below is an MBTI (Myers Briggs Test Indicator) test that gives a benchmark of what your personality is. <br> Since it is a personality-based test, it has no right or wrong answer.</p>
+        <p>It consists of 88 questions. It may look tedious but it's needed in order to get a better assessment of how your brain works^.</p>
+
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12 --col-md-offset-2">
+      <div class="col-md-6 --col-md-offset-3">
         <div ng-repeat="question in questions" class="separator">
           <h3 style="margin-bottom:15px;">{{question.title}}</h3>
-          <div class="row" style="margin-bottom: 50px;">
-            <div class="col-md-6" ng-repeat="selection in question.selections">
-              <a href="#" class="btn btn-block" ng-disabled="question.selected === selection" ng-click="answer(selection, question, $event)" ng-class="question.selected === selection ?
-                    'btn-success' : 'btn-default'">
-                  {{selection.label}}
-                </a>
-            </div>
-          </div>
+          <a href="#" ng-repeat="selection in question.selections" class="btn btn-block btn-left" ng-disabled="question.selected === selection" ng-click="answer(selection, question, $event)" ng-class="question.selected === selection ?
+          'btn-success' : 'btn-default'">
+          {{selection.label}}
+          </a>
         </div>
       </div>
     </div>
