@@ -1,0 +1,531 @@
+{
+  "questions": [{
+    "title": "1. My best ideas at work come from",
+    "selections": [
+      "an interchange of ideas and sharing with others.",
+      "quiet thought on my own."
+    ]
+  }, {
+    "title": "2. When I run a meeting, I am usually",
+    "selections": [
+      "disciplined about following my prepared agenda.",
+      "flexible and open to whatever comes up."
+    ]
+  }, {
+    "title": "3. When handling a subordinate's development, I am most likely to ",
+    "selections": [
+      "discuss a problem I have with his or her behavior.",
+      "dislike telling him or her unpleasant things."
+    ]
+  }, {
+    "title": "4. I prefer the place I work to be",
+    "selections": [
+      "structured with clear rules and regulations.",
+      "more open-ended and laissez-faire."
+    ]
+  }, {
+    "title": "5. I would rather have a supervisor with whom I have",
+    "selections": [
+      "a lot of day-by-day interaction.",
+      "only infrequent interaction."
+    ]
+  }, {
+    "title": "6. I prefer meetings where most time is spent on",
+    "selections": [
+      "the application of the ideas discussed.",
+      "the ideas themselves."
+    ]
+  }, {
+    "title": "7. I prefer a work environment where",
+    "selections": [
+      "frequent differences of opinion breed interesting discussions and ideas.",
+      "conflict is reduced by avoiding discussions about differences of opinion."
+    ]
+  }, {
+    "title": "8. I prefer projects at work",
+    "selections": [
+      "to be well-defined and planned out.",
+      "to allow for flexible interpretation."
+    ]
+  }, {
+    "title": "9. I prefer to spend my lunch hour",
+    "selections": [
+      "eating with a group.",
+      "eating alone or with one close colleague."
+    ]
+  }, {
+    "title": "10. If my boss gives me a difficult task, I usually",
+    "selections": [
+      "collect as much information as possible before starting.",
+      "dive in and rely on my ability to work things out."
+    ]
+  }, {
+    "title": "11. In a performance appraisal, I prefer my boss to write that I am",
+    "selections": [
+      "intelligent and reasonable.",
+      "warm and personable."
+    ]
+  }, {
+    "title": "12. I prefer to ",
+    "selections": [
+      "plan my workday carefully in advance.",
+      "let the day progress and see how things turn out."
+    ]
+  }, {
+    "title": "13. I more often prefer to keep my office door",
+    "selections": [
+      "open.",
+      "closed."
+    ]
+  }, {
+    "title": "14. When a new idea flashes into my mind, I usually",
+    "selections": [
+      "like to test if carefully before I get excited.",
+      "get excited and want to follow through quickly."
+    ]
+  }, {
+    "title": "15. In a team meeting, I prefer to emphasize",
+    "selections": [
+      "an analytical discussion of the facts.",
+      "a discussion of the values involved."
+    ]
+  }, {
+    "title": "16. I prefer a job in which the rewards are",
+    "selections": [
+      "seen clearly in regular periods.",
+      "stretched out over long periods of time."
+    ]
+  }, {
+    "title": "17. I dress for work",
+    "selections": [
+      "so that other people notice and admire my clothing.",
+      "in a way that blends in with the norm."
+    ]
+  }, {
+    "title": "18. When I solve problems, I am more likely to ",
+    "selections": [
+      "give most weight to the facts in front of me.",
+      "explore the full range of possibilities."
+    ]
+  }, {
+    "title": "19. If I have to confront colleagues or subordinates, I am usually",
+    "selections": [
+      "interested in making sure I give them the facts accurately.",
+      "more interested in making sure I don't hurt their feelings."
+    ]
+  }, {
+    "title": "20. I would rather have a boss who",
+    "selections": [
+      "provides a lot of structure and organization.",
+      "leaves me to do things however they work best for me."
+    ]
+  }, {
+    "title": "21. I prefer most of my jobs at work to be",
+    "selections": [
+      "a continuing series of short tasks.",
+      "long projects on which I can concentrate my efforts."
+    ]
+  }, {
+    "title": "22. When I write a report, I usually think first of ",
+    "selections": [
+      "the details.",
+      "the big picture."
+    ]
+  }, {
+    "title": "23. When I have a decision to make at work, I usually",
+    "selections": [
+      "reason it through regardless of my feelings.",
+      "consider my feelings to be very important."
+    ]
+  }, {
+    "title": "24. I prefer my own office to be one in which",
+    "selections": [
+      "things are olderly, organized, and systematic.",
+      "there is a creative array of projects, papers, and books."
+    ]
+  }, {
+    "title": "25. When I have lunch with my colleagues, I would rather",
+    "selections": [
+      "talk about people.",
+      "talk about ideas."
+    ]
+  }, {
+    "title": "26. I would rather have my boss trust me with",
+    "selections": [
+      "practical problems to solve.",
+      "policy problems to solve."
+    ]
+  }, {
+    "title": "27. When faced with a decision at work, I usually prefer to ",
+    "selections": [
+      "think things through.",
+      "trust my gut feelings."
+    ]
+  }, {
+    "title": "28. I prefer the work I do every day to ",
+    "selections": [
+      "be continuous and relatively predictable.",
+      "have frequent changes in activities and schedules."
+    ]
+  }, {
+    "title": "29. When I have to organize and run a meeting, I more often",
+    "selections": [
+      "feel satisfied that I have the opportunity to lead.",
+      "prefer that someone else had the responsibility."
+    ]
+  }, {
+    "title": "30. If I were asked to prepare a strategic plan, I would be more likely to ",
+    "selections": [
+      "emphasize what is practical now.",
+      "orient the plan toward future possibilities."
+    ]
+  }, {
+    "title": "31. When faced with a decision at work, I usually",
+    "selections": [
+      "focus on the facts and figures above all.",
+      "give careful attention to people's feelings."
+    ]
+  }, {
+    "title": "32. When my boss gives me a new project, I usually prefer",
+    "selections": [
+      "a clear statement of what is expected.",
+      "to be left to work it out the way I want."
+    ]
+  }, {
+    "title": "33. I prefer to have",
+    "selections": [
+      "a large group of colleagues at work.",
+      "a few colleagues that I know well."
+    ]
+  }, {
+    "title": "34. In one-on-one meetings, I am more likely to ",
+    "selections": [
+      "listen quietly and absorb details.",
+      "anticipate the speaker's words and interject."
+    ]
+  }, {
+    "title": "35. If someone argues with a policy or decision I make, I usually",
+    "selections": [
+      "remain firm.",
+      "seek to avoid unpleasantness, anger, and disharmony."
+    ]
+  }, {
+    "title": "36. When I have made a tough choice at work, I usually",
+    "selections": [
+      "am satisfied that it is done.",
+      "wish that I could remain open to other alternatives."
+    ]
+  }, {
+    "title": "37. When I attend a company outing, I usually",
+    "selections": [
+      "walk around and meet people I may not know well.",
+      "hang out with the colleagues I know best."
+    ]
+  }, {
+    "title": "38. I think my colleagues see me more",
+    "selections": [
+      "as a here-and-now person.",
+      "as someone with an orientation toward the future."
+    ]
+  }, {
+    "title": "39. When I have a long and complex report to read, I am more likely to ",
+    "selections": [
+      "be patient and study the details.",
+      "try to get the general ideas and see how I feel about them."
+    ]
+  }, {
+    "title": "40. I prefer my work environment to be ",
+    "selections": [
+      "comfortable, predictable, and stable.",
+      "flexible and changing."
+    ]
+  }, {
+    "title": "41. My colleagues at work are more likely to describe me as ",
+    "selections": [
+      "an energetic team player.",
+      "a quiet and thoughtful employee."
+    ]
+  }, {
+    "title": "42. When I prepare a presentation, I prefer to emphasize",
+    "selections": [
+      "the use of real facts from my own experience.",
+      "the discussion of ideas and concepts."
+    ]
+  }, {
+    "title": "43. I prefer to work with colleagues who",
+    "selections": [
+      "rely heavily on logic.",
+      "look more often to their feelings."
+    ]
+  }, {
+    "title": "44. If someone on my team is late with a scheduled task, I usually",
+    "selections": [
+      "get impatient and annoyed.",
+      "look for ways to stretch the deadlines."
+    ]
+  }, {
+    "title": "45. When I attend a training session, I am more likely to ",
+    "selections": [
+      "participate openly and actively.",
+      "let others take the active role."
+    ]
+  }, {
+    "title": "46. When colleagues and subordinates present ideas to me, I am usually more interested in ",
+    "selections": [
+      "immediately useful ideas.",
+      "ideas with innovative approaches."
+    ]
+  }, {
+    "title": "47. If I have to deal with a colleague's feelings, I prefer to be ",
+    "selections": [
+      "truthful even if I can't be tactful.",
+      "tactful, even if I can't tell the truth."
+    ]
+  }, {
+    "title": "48. I prefer projects that ",
+    "selections": [
+      "have a clear ending date when I know they will be finished.",
+      "may remain open-ended to ensure that all bases are covered."
+    ]
+  }, {
+    "title": "49. When I have a decision to make at work, I more often",
+    "selections": [
+      "talk it over with a number of people before I decide.",
+      "spend most of my time working it out in my own head."
+    ]
+  }, {
+    "title": "50. I prefer a job where I can ",
+    "selections": [
+      "use my experience to work at familiar tasks.",
+      "confront ideas and problems that are new to me."
+    ]
+  }, {
+    "title": "51. When I am at a meeting and a difference of opinion gets heated, I usually",
+    "selections": [
+      "defend the side I think is most logical.",
+      "try to create a harmonious atmosphere and solution."
+    ]
+  }, {
+    "title": "52. When I get a new project, I usually prefer to ",
+    "selections": [
+      "get to it and complete it as quickly as possible.",
+      "move as slowly as allowable and explore various approaches."
+    ]
+  }, {
+    "title": "53. I am more interested in ",
+    "selections": [
+      "the actual tasks I am doing day-by-day.",
+      "the thoughts I have about my work."
+    ]
+  }, {
+    "title": "54. When I attend a training session, I usually prefer",
+    "selections": [
+      "experiential processes.",
+      "information and abstractions."
+    ]
+  }, {
+    "title": "55. When I have a meeting with a colleague, I usually",
+    "selections": [
+      "get through it quickly in a businesslike manner.",
+      "linger over the sociable interaction."
+    ]
+  }, {
+    "title": "56. I would rather be in a job with ",
+    "selections": [
+      "activities requiring me to reach a conclusion.",
+      "activities that allow me to stay open to my experience."
+    ]
+  }, {
+    "title": "57. When I ask a colleague for advice or help, I am usually",
+    "selections": [
+      "comfortable.",
+      "somewhat ill at ease."
+    ]
+  }, {
+    "title": "58. In a meeting or when reading a report, I am more likely to ",
+    "selections": [
+      "remember the facts presented.",
+      "remember mostly the concepts presented."
+    ]
+  }, {
+    "title": "59. When colleagues ask my advice about a work matter, I more often",
+    "selections": [
+      "guide them toward a decision based purely on logic.",
+      "help them explore the values and policies in the situation."
+    ]
+  }, {
+    "title": "60. When I am in a meeting, I am usually more interested in ",
+    "selections": [
+      "getting the job done as quickly as possible.",
+      "spending time making sure everyone gets heard."
+    ]
+  }, {
+    "title": "61. When I am interrupted in the middle of a tough job, I usually",
+    "selections": [
+      "welcome the opportunity to talk to someone.",
+      "prefer to be left alone with my thoughts."
+    ]
+  }, {
+    "title": "62. When I read a report, I usually go first to ",
+    "selections": [
+      "the body of detailed information.",
+      "the summary or executive overview."
+    ]
+  }, {
+    "title": "63. When I am putting forward a new idea at work, I more often",
+    "selections": [
+      "remain firm about the correctness of it.",
+      "try to persuade others by appealing to their sense of value."
+    ]
+  }, {
+    "title": "64. If my boss insists that I schedule my workday, I feel",
+    "selections": [
+      "satisfied I am organized.",
+      "uncomfortable that I am constrained."
+    ]
+  }, {
+    "title": "65. When I am at a meeting and someone tells a joke, I usually",
+    "selections": [
+      "laugh and think of one to tell.",
+      "enjoy the joke quietly."
+    ]
+  }, {
+    "title": "66. In a performance appraisal, it would be more accurate if my boss said I was ",
+    "selections": [
+      "practical.",
+      "imaginative."
+    ]
+  }, {
+    "title": "67. I am usually more interested in how my colleagues",
+    "selections": [
+      "think about problems.",
+      "feel about problems."
+    ]
+  }, {
+    "title": "68. When a new and unusual policy announcement is issued at work, I am usually",
+    "selections": [
+      "annoyed or otherwise upset at the changes.",
+      "interested in seeing how I will handle the new environment."
+    ]
+  }, {
+    "title": "69. In a meeting, I usually",
+    "selections": [
+      "speak out directly when I want to.",
+      "wait until I am asked directly before I speak."
+    ]
+  }, {
+    "title": "70. When I start a new project, I usually",
+    "selections": [
+      "write a step-by-step plan early in the process.",
+      "wait and see how things develop before planning."
+    ]
+  }, {
+    "title": "71. When I hear a presentation from a colleague, I am more likely to be",
+    "selections": [
+      "openly and intellectually critical.",
+      "careful in voicing my opinions, especially when I disagree."
+    ]
+  }, {
+    "title": "72. If they couldn't be both, I would rather have colleagues who are ",
+    "selections": [
+      "well-organized.",
+      "spontaneous."
+    ]
+  }, {
+    "title": "73. I would prefer to work in a company where",
+    "selections": [
+      "everyone works together in an open, active environment.",
+      "people work independently in their own spaces."
+    ]
+  }, {
+    "title": "74. I more often seek out work that applies",
+    "selections": [
+      "my practical skills and nature.",
+      "my ability to create new ideas and things."
+    ]
+  }, {
+    "title": "75. When I have to make a decision at work, I am more likely to ",
+    "selections": [
+      "analyze the situation logically without considering my values and feelings.",
+      "put a strong emphasis on applying my values and feelings to the solution."
+    ]
+  }, {
+    "title": "76. When I present my views in a meeting, I am usually",
+    "selections": [
+      "decisive.",
+      "open to having others suggest changes and other views."
+    ]
+  }, {
+    "title": "77. When I need to pass on an idea or information, I prefer to ",
+    "selections": [
+      "talk directly to people about it.",
+      "put it in writing."
+    ]
+  }, {
+    "title": "78. My leadership style is best described as ",
+    "selections": [
+      "practical.",
+      "visionary."
+    ]
+  }, {
+    "title": "79. In a performance appraisal meeting, I am usually more likely to ",
+    "selections": [
+      "be frank and honest regardless of feelings.",
+      "try to smooth over any problems and avoid hurt feelings."
+    ]
+  }, {
+    "title": "80. When I am discussing an important issue at a meeting, I usually",
+    "selections": [
+      "try to reach a definite conclusion quickly.",
+      "keep the options open."
+    ]
+  }, {
+    "title": "81. I enjoy more",
+    "selections": [
+      "a workday filled with variety and interactions with others.",
+      "working without interacting with others for long periods of time."
+    ]
+  }, {
+    "title": "82. I prefer a work situation that is",
+    "selections": [
+      "stable with little change.",
+      "full of change."
+    ]
+  }, {
+    "title": "83. My colleagues would be more likely to describe my behavior at work as ",
+    "selections": [
+      "cool, calm, and objective.",
+      "warm and feeling."
+    ]
+  }, {
+    "title": "84. At work, I prefer projects",
+    "selections": [
+      "on which I work quickly to make a short deadline.",
+      "that have longer and more flexible deadlines."
+    ]
+  }, {
+    "title": "85. When I am in a meeting with colleagues and a high-ranking manager or executive comes in, I usually",
+    "selections": [
+      "greet the person in a comfortable and friendly way.",
+      "wait until I see how others react to him or her."
+    ]
+  }, {
+    "title": "86. When I think of my most important work assets, they are ",
+    "selections": [
+      "more in the realm of the practical.",
+      "more inclined toward the realm of ideas."
+    ]
+  }, {
+    "title": "87. In a training session or course, I prefer a trainer who depends more on",
+    "selections": [
+      "precision and logic.",
+      "emotion and experience."
+    ]
+  }, {
+    "title": "88. I usually push my colleagues or subordinates for ",
+    "selections": [
+      "quick decisions.",
+      "thorough review, even at the risk of delaying decisions."
+    ]
+  }]
+}

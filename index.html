@@ -1,0 +1,50 @@
+<!doctype html>
+<html ng-app="app">
+
+<head>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <script src="/js/angular.min.js" charset="utf-8"></script>
+  <script src="/js/main.js" charset="utf-8"></script>
+</head>
+
+<body ng-controller="MainCtrl">
+  <div class="container">
+    <div class="row text-center" ng-if="result">
+      <div class="alert alert-info">
+        <h1>{{result.type}}</h1>
+        <ul class="list-inline">
+          <li ng-repeat="trait in result.traits">
+            {{trait.typeName}} ({{trait.percentage}}%)
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row" style="margin-bottom: 50px;">
+      <div class="col-md-12">
+        <h1>Discover your personality type</h1>
+        <p class="lead">Below is an MBTI (Myers Briggs Test Indicator) test that gives a benchmark of what your personality is. It describes how your brain primarily works.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 --col-md-offset-2">
+        <div ng-repeat="question in questions" class="separator">
+          <h3 style="margin-bottom:15px;">{{question.title}}</h3>
+          <div class="row" style="margin-bottom: 50px;">
+            <div class="col-md-6" ng-repeat="selection in question.selections">
+              <a href="#" class="btn btn-block" ng-disabled="question.selected === selection" ng-click="answer(selection, question, $event)" ng-class="question.selected === selection ?
+                    'btn-success' : 'btn-default'">
+                  {{selection.label}}
+                </a>
+            </div>
+          </div>
+        </div>
+
+        <a class="btn btn-success" ng-click="submit($event)">Submit</a>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

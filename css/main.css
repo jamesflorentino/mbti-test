@@ -1,0 +1,5 @@
+.separator:nth-child(8n){
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 150px;
+}
