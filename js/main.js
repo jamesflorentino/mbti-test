@@ -3,7 +3,6 @@ angular.module('app', [])
     try {
       $scope.answers = JSON.parse(window.localStorage.answers);
     } catch (e) {
-      console.log(e);
       $scope.answers = [];
     } finally {}
     $scope.title = "Find your MBTI";
@@ -22,10 +21,15 @@ angular.module('app', [])
       var answers = questions.filter(function(question) {
         return !!question.selected;
       });
+
       $scope.isValid = answers.length === $scope.questions.length;
     };
 
     $scope.submit = function($event) {
+      $scope.answers = $scope.questions.map(function(question) {
+        return question.answer;
+      });
+
       calculateResult();
     };
 
@@ -50,6 +54,7 @@ angular.module('app', [])
         J: 0,
         P: 0
       };
+
       $scope.answers.forEach(function(answer, i) {
         var type = (i + 1) % 4;
         switch (type) {
@@ -83,12 +88,6 @@ angular.module('app', [])
             break;
         }
       });
-
-      // console.log(scores.E > scores.I ? 'E' : 'I', compareScore(scores.E, scores.I));
-      // console.log(scores.S > scores.N ? 'S' : 'N', compareScore(scores.S, scores.N));
-      // console.log(scores.T > scores.F ? 'T' : 'F', compareScore(scores.T, scores.F));
-      // console.log(scores.J > scores.P ? 'J' : 'P', compareScore(scores.J, scores.P));
-      // console.log(scores);
 
       var typeMatrix = [
         ['E','I'],
